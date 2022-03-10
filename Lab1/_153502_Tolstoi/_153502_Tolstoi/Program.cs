@@ -19,7 +19,7 @@
             System.Console.WriteLine(answer);
         }
 
-        public double task(double a, double b)
+        double task(double a, double b)
         {
             return a / b;
         }
