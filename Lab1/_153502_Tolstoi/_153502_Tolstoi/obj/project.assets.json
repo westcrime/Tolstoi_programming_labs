@@ -122,11 +122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dima\\Labs\\Programming\\_153502_Tolstoi\\_153502_Tolstoi\\_153502_Tolstoi.csproj",
+      "projectUniqueName": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab1\\_153502_Tolstoi\\_153502_Tolstoi\\_153502_Tolstoi.csproj",
       "projectName": "_153502_Tolstoi",
-      "projectPath": "C:\\Users\\Dima\\Labs\\Programming\\_153502_Tolstoi\\_153502_Tolstoi\\_153502_Tolstoi.csproj",
+      "projectPath": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab1\\_153502_Tolstoi\\_153502_Tolstoi\\_153502_Tolstoi.csproj",
       "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dima\\Labs\\Programming\\_153502_Tolstoi\\_153502_Tolstoi\\obj\\",
+      "outputPath": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab1\\_153502_Tolstoi\\_153502_Tolstoi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",

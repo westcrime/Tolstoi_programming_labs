@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "08qi8sb5iPhX6xdgAlF/boxth51D7yEiFPHRrHSw5xSfMlfhlbImXczX9/XXWwv+7HOhHwfbulq1jFqU5EjbDg==",
+  "dgSpecHash": "zQoS7obyckBpn8fWrfsD9KvgrDDCi0ofhuLf6Q5iEpapkA4PHBmpzKQt932rdy2hcRI5tEf8IX8A4dc1Iug8yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dima\\Labs\\Programming\\_153502_Tolstoi\\_153502_Tolstoi\\_153502_Tolstoi.csproj",
+  "projectFilePath": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab1\\_153502_Tolstoi\\_153502_Tolstoi\\_153502_Tolstoi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dima\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Dima\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
