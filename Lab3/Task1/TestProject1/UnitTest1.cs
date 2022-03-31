@@ -33,7 +33,7 @@ namespace TestProject1
         [TestMethod]
         public void TestMethod3()
         {
-            Assert.AreEqual(DateService.getDay("22.04.2022"), DayOfWeek.Friday);
+            Assert.AreEqual(DateService.getDay("31.03.2022"), DayOfWeek.Thursday);
 
         }
     }
@@ -44,7 +44,10 @@ namespace TestProject1
         [TestMethod]
         public void TestMethod4()
         {
-            Assert.AreEqual(DateService.getDaysSpan(04, 04, 2022), 4);
+
+            DateTime dateNow = new DateTime(DateTime.Now.AddDays(3).Year, DateTime.Now.AddDays(3).Month, DateTime.Now.AddDays(3).Day);
+
+            Assert.AreEqual(DateService.getDaysSpan(dateNow.Day, dateNow.Month, dateNow.Year), 2);
 
         }
     }

@@ -12,6 +12,7 @@ namespace HelloWorld
             double a, b;
             while(!double.TryParse(Console.ReadLine(), out a))
             {
+
                 Console.WriteLine("некорректное значение\n");
             }   
             while (!double.TryParse(Console.ReadLine(), out b))

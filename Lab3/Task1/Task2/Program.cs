@@ -20,11 +20,7 @@ namespace HelloWorld
 
             Class2.function(z);
 
-            Console.WriteLine("Переход к 3 заданию...\n Введите дату");
-
-            string date = Console.ReadLine();
-
-            Console.WriteLine("День недели этой даты - {0}", DateService.getDay(date).ToString());
+            
         }
     }
 }

@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab3\\Task1\\Task3\\Task3.csproj",
-      "projectName": "Task3",
-      "projectPath": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab3\\Task1\\Task3\\Task3.csproj",
+      "projectUniqueName": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab3\\Task1\\Task3\\Task4.csproj",
+      "projectName": "Task4",
+      "projectPath": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab3\\Task1\\Task3\\Task4.csproj",
       "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dima\\Repositories\\Tolstoi_programming_labs\\Lab3\\Task1\\Task3\\obj\\",
       "projectStyle": "PackageReference",
