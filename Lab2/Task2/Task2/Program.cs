@@ -7,18 +7,18 @@ public class Task2
     {
         var mc = new Task2();
 
-        double x = 0, y = 0;
+        int x = 0, y = 0;
 
         Console.WriteLine("Enter the x.\n");
 
-        while (!double.TryParse(Console.ReadLine(), out x))
+        while (!int.TryParse(Console.ReadLine(), out x))
         {
             Console.WriteLine("Invalid input.\n");
         }
 
         Console.WriteLine("Enter the y.\n");
 
-        while (!double.TryParse(Console.ReadLine(), out y))
+        while (!int.TryParse(Console.ReadLine(), out y))
         {
             Console.WriteLine("Invalid input.\n");
         }
@@ -45,7 +45,7 @@ public class Task2
         }
     }
 
-    public int task2(double x, double y)
+    public int task2(int x, int y)
     {
         if (y < 0)
         {
@@ -53,15 +53,15 @@ public class Task2
         }
         else
         {
-            double vector = Math.Sqrt(x * x + y * y);
+            int vector = x * x + y * y;
 
-            if (vector < 3)
+            if (vector < 9)
             {
                 return 1;
             }
             else
             {
-                if (vector > 3)
+                if (vector > 9)
                 {
                     return -1;
                 }
