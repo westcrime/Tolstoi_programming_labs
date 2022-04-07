@@ -9,11 +9,11 @@ namespace Test
         [TestMethod]
         public void TestMethod1()
         {
-            Airport airport = new Airport();
-            airport.Name = "Minsk";
-            airport.setCostOfTicket(10);
+            Airport airport = Airport.Instance();
+            airport.Name = "minsk";
+            airport.Places = 192;
             airport.SoldTickets = 10;
-            airport.Places = 100;
+            airport.setCostOfTicket(10);
 
             Assert.AreEqual(airport.CostOfSoldTickets(), 100);
         }
@@ -25,13 +25,25 @@ namespace Test
         [TestMethod]
         public void TestMethod2()
         {
-            Airport airport = new Airport();
-            airport.Name = "Minsk";
-            airport.setCostOfTicket(100);
+            Airport airport = Airport.Instance();
+            airport.Name = "minsk";
+            airport.Places = 192;
             airport.SoldTickets = 10;
-            airport.Places = 100;
-
+            airport.setCostOfTicket(100);
+            
             Assert.AreEqual(airport.CostOfSoldTickets(), 1000);
+        }
+    }
+
+    [TestClass]
+    public class UnitTest3
+    {
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Airport airport = Airport.Instance("minsk", 100, 100, 192);
+
+            Assert.AreEqual(airport.CostOfSoldTickets(), 10000);
         }
     }
 }

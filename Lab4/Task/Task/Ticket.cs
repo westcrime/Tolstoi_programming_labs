@@ -8,23 +8,16 @@ namespace Task
 {
     class Ticket
     {
-        private static Ticket instance;
-
-        private Ticket(int cost) 
+        public Ticket(int cost) 
         {
             this.TicketCost = cost;
         }
+        public Ticket()
+        {
+            this.TicketCost = 0;
+        }
 
         protected int m_ticketCost;
-
-        public static Ticket getInstance(int cost)
-        {
-            if (instance == null)
-            {
-                instance = new Ticket(cost);
-            }
-            return instance;    
-        }
 
         public void changeCost(int cost)
         {
@@ -36,7 +29,7 @@ namespace Task
             {
                 return m_ticketCost;
             }
-            private set
+            set
             {
                 m_ticketCost = value;
             }

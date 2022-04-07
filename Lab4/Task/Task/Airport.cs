@@ -8,11 +8,35 @@ namespace Task
 {
     public class Airport
     {
+
+        private static Airport instance;
         
         private Ticket ticket;
         private string m_name = "undefined";
         private int m_places = 0;
         private int m_soldTickets = 0;
+
+        public static Airport Instance()
+        {
+            if (instance == null)
+            {
+                instance = new Airport();
+            }
+            return instance;
+        }
+
+        public static Airport Instance(string name, int cost, int sold, int places)
+        {
+            if (instance == null)
+            {
+                instance = new Airport();
+                instance.Name = name;
+                instance.ticket = new Ticket(cost);
+                instance.SoldTickets = sold;
+                instance.Places = places;
+            }
+            return instance;
+        }
 
         public int CostOfSoldTickets()
         {
@@ -24,17 +48,9 @@ namespace Task
             ticket.changeCost(cost);
         }
 
-        public Airport(string name, int cost, int sold, int places)
+        private Airport()
         {
-            this.Name = name;
-            ticket = Ticket.getInstance(cost);
-            this.SoldTickets = sold;
-            this.Places = places;
-        }
-
-        public Airport() 
-        {
-            ticket = Ticket.getInstance(0);
+            ticket = new Ticket(0);
         }
 
         public string Name
