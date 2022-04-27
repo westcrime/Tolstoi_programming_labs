@@ -24,3 +24,6 @@ eq6 *= 2;
 eq6 /= 2;
 
 eq6.GetSolutions();
+
+Equation eq8 = 4;
+eq8.GetSolutions();

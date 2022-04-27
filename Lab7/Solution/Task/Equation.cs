@@ -93,6 +93,10 @@ public class Equation
         return new Equation(eq.A, eq.B, eq.C - 1);
     }
 
+    public static implicit operator Equation(int a)
+    {
+        return new Equation(a, 0, 0);
+    }
     public static Equation operator *(Equation eq, int value)
     {
         return new Equation(eq.A * value, eq.B * value, eq.C * value);
