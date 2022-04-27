@@ -13,7 +13,7 @@ namespace Task
         
         private Ticket ticket;
         private string m_name = "undefined";
-        private int m_places = 0;
+        private int m_places = 0; 
         private int m_soldTickets = 0;
 
         public static Airport Instance()

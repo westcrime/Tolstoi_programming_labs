@@ -17,9 +17,15 @@ public abstract class Cocktail
         Cost = cost;
     }
 
-    public abstract void GetRecipe();
-    public virtual void Drink() => Console.WriteLine("Surp, surp, surp, yummy!");
-    public void Spilled() => Console.WriteLine("F#ck, I have just spilled my cocktail!");
+    public abstract String GetRecipe();
+    public virtual String Drink()
+    {
+        return new String("Surp, surp, surp, yummy!");
+    }
+    public String Spilled()
+    {
+        return new string("F#ck, I have just spilled my cocktail!");
+    }
 }
 
 public abstract class AlcoholCocktail : Cocktail
@@ -42,36 +48,40 @@ public abstract class AlcoholCocktail : Cocktail
 
 public sealed class DeadCocktail : Cocktail
 {
-    public override void GetRecipe()
+    public override String GetRecipe()
     {
-        Console.WriteLine("Secret");
+        return new string("Secret");
     }
 
-    public override void Drink()
+    public override String Drink()
     {
-        Console.WriteLine("YOU DIED");
+        return new string("YOU DIED");
     }
 }
 
 public class Mochito : AlcoholCocktail
 {
-    public override void GetRecipe()
+    public override String GetRecipe()
     {
-        Console.WriteLine("Mochito is made of rome, lime, sugar, soda and mint.");
+        return new String("Mochito is made of rome, lime, sugar, soda and mint.");
     }
 
-    public override void Drink()
+    public override String Drink()
     {
-        Console.WriteLine("No, it is unhealthy!");
+        return new String("No, it is unhealthy!");
     }
 
-    public new void Spilled() => Console.WriteLine("Nevermind, will be healthier");
+    public new String Spilled()
+    {
+        return new String("Nevermind, will be healthier");
+    }
+
 }
 
 public class BananaMilk : Cocktail
 {
-    public override void GetRecipe()
+    public override String GetRecipe()
     {
-        Console.WriteLine("Banana-Milk is made of milk, banana, sugar and ice cream");
+        return new String("Banana-Milk is made of milk, banana, sugar and ice cream");
     }
 }
