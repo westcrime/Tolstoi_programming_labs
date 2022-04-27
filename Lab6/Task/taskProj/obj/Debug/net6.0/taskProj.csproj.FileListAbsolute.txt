@@ -1,0 +1,15 @@
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\bin\Debug\net6.0\taskProj.exe
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\bin\Debug\net6.0\taskProj.deps.json
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\bin\Debug\net6.0\taskProj.runtimeconfig.json
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\bin\Debug\net6.0\taskProj.dll
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\bin\Debug\net6.0\taskProj.pdb
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.csproj.AssemblyReference.cache
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.AssemblyInfoInputs.cache
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.AssemblyInfo.cs
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.csproj.CoreCompileInputs.cache
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.dll
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\refint\taskProj.dll
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.pdb
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\taskProj.genruntimeconfig.cache
+C:\Users\Dima\Repositories\Tolstoi_programming_labs\Lab6\Task\taskProj\obj\Debug\net6.0\ref\taskProj.dll
